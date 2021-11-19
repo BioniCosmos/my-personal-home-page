@@ -1,0 +1,7 @@
+{
+  "name": "my-personal-home-page",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
