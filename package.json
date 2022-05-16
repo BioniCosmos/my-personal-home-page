@@ -1,7 +1,11 @@
 {
-  "name": "my-personal-home-page",
-  "private": true,
-  "devDependencies": {
-    "tailwindcss": "^2.2.19"
-  }
+    "name": "my-personal-home-page",
+    "private": true,
+    "scripts": {
+        "dev": "tailwindcss -i ./input.css -o ./dist/output.css -w",
+        "build": "tailwindcss -i ./input.css -o ./dist/output.css -m"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.0.24"
+    }
 }

@@ -1,54 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel (@BioniCosmos)</title>
-    <link href="https://moecm.com/images/logo.png" rel="icon">
-    <link href="styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+    <link rel="icon" href="https://moecm.com/images/logo.png">
+    <link href="/dist/output.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="flex justify-center items-center h-screen bg-cover" style="background-image: url('bg.jpg');">
-        <div class="flex bg-gray-50 bg-opacity-75 p-10 rounded-3xl shadow-2xl">
-            <div class="text-center mr-8">
-                <img class="rounded-full mb-4 w-48 h-48" src="avatar.jpg">
-                <h1 class="text-5xl mb-4 font-bold">Daniel</h1>
-                <div>
-                    <a class="mr-2" href="mailto:daniel#moecm.com"><i class="far fa-envelope text-2xl"></i></a>
-                    <a class="mr-2" href="https://github.com/BioniCosmos" target="_blank"><i
-                            class="fab fa-github text-2xl"></i></a>
-                    <a href="https://moecm.com"><i class="fas fa-pen-nib text-2xl"></i></a>
+    <main class="text-gray-600">
+        <section
+            class="h-screen flex items-center justify-center flex-col bg-gradient-to-br from-white via-gray-200 to-gray-400 animate-[dynamic-gradient_10s_infinite] bg-[length:300%] font-light">
+            <div class="text-xl">Hello there, I’m Daniel.</div>
+            <div class="text-xl mt-4">Welcome to BioniCosmos!</div>
+            <div class="space-x-4 mt-10">
+                <a class="inline-block h-5 w-5 fill-blue-600" href="https://moecm.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M217.6 96.1c-12.95-.625-24.66 9.156-25.52 22.37C191.2 131.7 201.2 143.1 214.4 143.1c79.53 5.188 148.4 74.09 153.6 153.6c.8281 12.69 11.39 22.43 23.94 22.43c.5156 0 1.047-.0313 1.578-.0625c13.22-.8438 23.25-12.28 22.39-25.5C409.3 191.8 320.3 102.8 217.6 96.1zM224 0C206.3 0 192 14.31 192 32s14.33 32 32 32c123.5 0 224 100.5 224 224c0 17.69 14.33 32 32 32s32-14.31 32-32C512 129.2 382.8 0 224 0zM172.3 226.8C157.7 223.9 144 235.8 144 250.6v50.37c0 10.25 7.127 18.37 16.75 21.1c18.13 6.75 31.26 24.38 31.26 44.1c0 26.5-21.5 47.1-48.01 47.1c-26.5 0-48.01-21.5-48.01-47.1V120c0-13.25-10.75-23.1-24.01-23.1l-48.01 .0076C10.75 96.02 0 106.8 0 120v247.1c0 89.5 82.14 160.2 175 140.7c54.38-11.5 98.27-55.5 109.8-109.7C302.2 316.1 247.8 241.8 172.3 226.8z" />
+                    </svg>
+                </a>
+                <a class="inline-block h-5 w-5 fill-blue-600" href="https://github.com/BioniCosmos" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                    </svg>
+                </a>
+                <a class="inline-block h-5 w-5 fill-blue-600" href="mailto:daniel@moecm.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z" />
+                    </svg>
+                </a>
+                <a class="inline-block h-5 w-5 fill-blue-600" href="https://t.me/BioniCosmos" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path
+                            d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z" />
+                    </svg>
+                </a>
+            </div>
+            <button class="h-6 w-6 absolute bottom-4" type="button"
+                onclick="window.scrollBy({ top: innerHeight, behavior: 'smooth' })">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z" />
+                </svg>
+            </button>
+        </section>
+        <section class="h-[calc(100vh-3.5rem)] flex flex-col md:grid grid-cols-2 grid-rows-2">
+            <div class="basis-1/4 hover:shadow-2xl transition duration-500 relative group">
+                <div
+                    class="w-max text-2xl font-semibold group-hover:text-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 group-hover:-translate-y-16 md:group-hover:-translate-y-[calc(100%+1.25rem)] transition duration-500">
+                    Human Languages</div>
+                <ul
+                    class="list-disc list-inside absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-4 md:translate-y-5 opacity-0 group-hover:opacity-100 transition duration-500">
+                    <li>zh-Hans-CN</li>
+                    <li>en-GB/en-US</li>
+                    <li class="w-max">ja-JP (still learning)</li>
+                </ul>
+            </div>
+            <div class="basis-1/4 hover:shadow-2xl transition duration-500 relative group">
+                <div
+                    class="w-max text-2xl font-semibold group-hover:text-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 group-hover:-translate-y-16 md:group-hover:-translate-y-[calc(100%+1.25rem)] transition duration-500">
+                    Programming Languages</div>
+                <ul
+                    class="list-disc list-inside absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-4 md:translate-y-5 opacity-0 group-hover:opacity-100 transition duration-500">
+                    <li>Go</li>
+                    <li>JavaScript</li>
+                    <li>C</li>
+                </ul>
+            </div>
+            <div class="basis-1/4 hover:shadow-2xl transition duration-500 relative group">
+                <div
+                    class="w-max text-2xl font-semibold group-hover:text-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 group-hover:-translate-y-16 md:group-hover:-translate-y-[calc(100%+1.25rem)] transition duration-500">
+                    Projects</div>
+                <ul
+                    class="list-disc list-inside absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-4 md:translate-y-5 opacity-0 group-hover:opacity-100 transition duration-500">
+                    <li><a class="relative after:absolute after:top-3/4 after:bottom-0 after:-left-px after:-right-px after:bg-blue-600/50 hover:after:top-0 after:transition-all"
+                            href="https://github.com/Project-Wind/Wind-Comment" target="_blank">Wind-Comment</a>
+                    </li>
+                    <li><a class="relative after:absolute after:top-3/4 after:bottom-0 after:-left-px after:-right-px after:bg-blue-600/50 hover:after:top-0 after:transition-all"
+                            href="https://github.com/BioniCosmos/SubMGR" target="_blank">SubMGR</a>
+                    </li>
+                    <li><a class="relative after:absolute after:top-3/4 after:bottom-0 after:-left-px after:-right-px after:bg-blue-600/50 hover:after:top-0 after:transition-all"
+                            href="https://github.com/BioniCosmos/clock" target="_blank">Clock</a>
+                    </li>
+                    <li><a class="relative after:absolute after:top-3/4 after:bottom-0 after:-left-px after:-right-px after:bg-blue-600/50 hover:after:top-0 after:transition-all"
+                            href="https://github.com/BioniCosmos/polynomial" target="_blank">Polynomial</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="basis-1/4 hover:shadow-2xl transition duration-500 relative group">
+                <div
+                    class="w-max text-2xl font-semibold group-hover:text-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 group-hover:-translate-y-16 md:group-hover:-translate-y-[calc(100%+1.25rem)] transition duration-500">
+                    More Information</div>
+                <div
+                    class="w-max absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-4 md:translate-y-5 opacity-0 group-hover:opacity-100 transition duration-500">
+                    Contact me via <a
+                        class="relative after:absolute after:top-3/4 after:bottom-0 after:-left-px after:-right-px after:bg-blue-600/50 hover:after:top-0 after:transition-all"
+                        href="mailto:daniel@moecm.com" target="_blank">email</a>
+                    or <a
+                        class="relative after:absolute after:top-3/4 after:bottom-0 after:-left-px after:-right-px after:bg-blue-600/50 hover:after:top-0 after:transition-all"
+                        href="https://t.me/BioniCosmos" target="_blank">Telegram</a>.
                 </div>
             </div>
-            <div>
-                <div class="text-4xl mb-4 font-medium">
-                    <p>Hey,</p>
-                    <p>here’s BioniCosmos!</p>
-                </div>
-                <div class="mb-4">
-                    <div class="mb-2">Human Languages:</div>
-                    <span class="bg-gray-100 shadow p-2 rounded-full mr-1"><i class="fas fa-globe-asia"></i>
-                        Chinese</span>
-                    <span class="bg-gray-100 shadow p-2 rounded-full"><i class="fas fa-globe-europe"></i> English</span>
-                </div>
-                <div class="mb-4">
-                    <div class="mb-2">Programming Languages:</div>
-                    <span class="bg-gray-100 shadow p-2 rounded-full mr-1"><i class="fas fa-code"></i> C</span>
-                    <span class="bg-gray-100 shadow p-2 rounded-full"><i class="fas fa-code"></i> Go</span>
-                </div>
-                <div>
-                    <div class="mb-2">Projects:</div>
-                    <a class="bg-gray-100 shadow p-2 rounded-full mr-1" href="https://github.com/BioniCosmos/SubMGR"
-                        target="_blank"><i class="fas fa-code-branch"></i> SubMGR</a>
-                    <a class="bg-gray-100 shadow p-2 rounded-full" href="https://github.com/BioniCosmos/Printer"
-                        target="_blank"><i class="fas fa-code-branch"></i> Printer</a>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
+    <footer
+        class="flex flex-col justify-evenly md:flex-row md:justify-between items-center h-14 px-8 text-gray-500 font-light text-sm">
+        <span class="w-max">My Personal Home Page on <a class="text-blue-600"
+                href="https://github.com/BioniCosmos/my-personal-home-page" target="_blank">GitHub</a></span>
+        <span>© 2022 Daniel Ding</span>
+    </footer>
 </body>
 
 </html>
